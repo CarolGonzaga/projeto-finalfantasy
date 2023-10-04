@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     margin: 0 auto;
     gap: 20px;
-    width: 70vw;
+    width: 80vw;
 }
 
 .titulo {
@@ -40,7 +40,7 @@ body {
     display: grid;
     grid-template-columns: 50% 40%;
     align-items: center;
-    gap: 10%;
+    gap: 30px;
 }
 
 .selecao-de-personagens .personagens {
@@ -58,26 +58,20 @@ body {
     max-width: 600px;
 }
 
-.lista-de-personagens .personagem {
+.lista-de-personagens .personagem img {
+    width: 100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.377);
     border-radius: 10px;
 }
 
-.lista-de-personagens .personagem img {
-    width: 100%;
-    height: 100%;
-}
-
-.lista-de-personagens .personagem.selecionado {
+.lista-de-personagens .personagem.selecionado img {
     box-shadow: 0px 0px 0px 4px #F2C744;
 }
 
 .selecao-de-personagens .personagem-selecionado {
+    align-content: end;
     text-align: center;
-}
-
-.personagem-selecionado .personagem-grande {
-    /* height: 320px; */
 }
 
 .personagem-selecionado .nome-personagem {
