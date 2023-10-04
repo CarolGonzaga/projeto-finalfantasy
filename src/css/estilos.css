@@ -1,0 +1,89 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("../imagens/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    height: 100vh;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.377);
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.titulo {
+    font-size: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #F2C744;
+    border-bottom: 2px solid #FFF;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.selecao-de-personagens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.selecao-de-personagens .personagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 590px;
+    gap: 30px;
+}
+
+.personagens .lista-de-personagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.lista-de-personagens .personagem {
+    background-color: rgba(0, 0, 0, 0.377);
+    border-radius: 10px;
+}
+
+.lista-de-personagens .personagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.lista-de-personagens .personagem.selecionado {
+    box-shadow: 0px 0px 0px 4px #F2C744;
+}
+
+.selecao-de-personagens .personagem-selecionado {
+    text-align: center;
+    width: 20%;
+}
+
+.personagem-selecionado .nome-personagem {
+    border-bottom: 2px solid #FFF;
+    width: 100%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #F2C744;
+    margin-top: 10px;
+}
+
+.personagem-selecionado .descricao-personagem {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
